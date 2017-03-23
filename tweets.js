@@ -8,6 +8,8 @@
 // Given a string, return the number of characters in that string
 function countChars(userString) {
   //your code here
+var howManyChars = userString.length
+return howManyChars;
   //don't forget to return the number of characters (use return!)
 }
 
@@ -17,6 +19,8 @@ function countChars(userString) {
 //Given a string, add " #yolo" to the end of that string
 function addHashtag(userString) {
   //your code here
+  var yolo = userString + " #yolo";
+  return yolo;
   //don't forget to return the number of characters (use return!)
 }
 //==============================================================================
@@ -27,6 +31,8 @@ function addHashtag(userString) {
 //Given a string, uppercase it and add "!!!" to the end of that string
 function excitedTweet(userString) {
   //your code here
+  var happyTweet = userString.toUpperCase() + "!!!"
+  return happyTweet;
   //don't forget to return the number of characters (use return!)
 }
 //==============================================================================
